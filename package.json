@@ -1,0 +1,32 @@
+{
+  "name": "rushing",
+  "version": "1.0.0",
+  "description": "* Item 1\r * Item 2\r   * Item 2a\r   * Item 2b",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-hot-middleware": "^2.22.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alpacha/Rushing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alpacha/Rushing/issues"
+  },
+  "homepage": "https://github.com/Alpacha/Rushing#readme"
+}
