@@ -8,7 +8,7 @@ module.exports = {
 },
 
 
-
+/*BETWEEN THIS SHIT this code part seems to be broken for HMR*/
 entry; {
   
       app: './src/index.js'
@@ -26,7 +26,7 @@ entry; {
      new webpack.HotModuleReplacementPlugin()
       ],
 
-
+/*BETWEEN THIS SHIT this code part seems to be broken for HMR*/
 
 
 
@@ -34,7 +34,8 @@ entry; {
     filename; 'main.js',
     path; path.resolve(__dirname, 'dist')
   }
-  module: {
+/*BETWEEN THIS SHIT this code part seems to be broken for HMR*/
+ module: {
     rules: [
      {
        test: /\.css$/,
