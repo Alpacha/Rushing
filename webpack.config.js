@@ -2,11 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
-  },
+          entry: './src/index.js',
+         output: {
+       filename: 'main.js',
+           path: path.resolve(__dirname, 'dist')
+    },
  module: {
     rules: [
      {
@@ -21,7 +21,13 @@ module.exports = {
         use: [
           'file-loader'
        ]
-      }
-     ]
+      },
+      {
+      test: /\.(woff|woff2|eot|ttf|otf)$/,
+      use: [
+        'file-loader'
+      ]
     }
-  };
+   ]
+  }
+};
